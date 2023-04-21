@@ -1,1 +1,1 @@
-<?php $GLOBALS['TL_JAVASCRIPT'][] = '/bundles/contaothememanagerstickyheader/assets/dist/stickyheader.js'; ?>
+<?php array_unshift($GLOBALS['TL_JAVASCRIPT'],'/bundles/contaothememanagerstickyheader/assets/dist/stickyheader.js|static') ?>
