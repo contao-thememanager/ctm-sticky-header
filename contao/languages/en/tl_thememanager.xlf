@@ -1,0 +1,52 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="contao/languages/en/tl_thememanager.php" source-language="en">
+    <body>
+      <trans-unit id="tl_thememanager.sticky_header_legend">
+        <source>Sticky-Header</source>
+      </trans-unit>
+
+      <trans-unit id="tl_thememanager.sh-background-start.0">
+        <source>$sh-background-start</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-background-start.1">
+        <source>Here you can set the starting background-color for the sticky header.</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-color-start.0">
+        <source>$sh-color-start</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-color-start.1">
+        <source>Here you can set the starting color for the sticky header navigation.</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-color-start-hover.0">
+        <source>$sh-color-start-hover</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-color-start-hover.1">
+        <source>Here you can set the starting color for the sticky header navigation when hovered.</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-background-end.0">
+        <source>$sh-background-end</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-background-end.1">
+        <source>Here you can set the ending background-color for the sticky header.</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-color-end.0">
+        <source>$sh-color-end</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-color-end.1">
+        <source>Here you can set the ending color for the sticky header navigation.</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-color-end-hover.0">
+        <source>$sh-color-end-hover</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-color-end-hover.1">
+        <source>Here you can set the ending color for the sticky header navigation when hovered.</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-stop-box-shadow.0">
+        <source>$sh-stop-box-shadow</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-stop-box-shadow.1">
+        <source>Here you can set the box shadow that appears as a dividing line when the Sticky Header has reached the maximum position.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

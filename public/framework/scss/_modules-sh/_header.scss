@@ -1,0 +1,29 @@
+// Custom
+@include stickyheader(
+  $start-background:  var(--sh-bg-0),
+  $stop-background:   var(--sh-bg-1),
+  $start-color:       var(--sh-clr-0),
+  $stop-color:        var(--sh-clr-1),
+  $start-color-hover: var(--sh-clr-0-hvr),
+  $stop-color-hover:  var(--sh-clr-1-hvr),
+  $head-selector:     'header',
+  $link-selector:     '.level_1 > li > a, .level_1 > li > strong, .mod_toggle'
+);
+
+.sh-stop {
+  transition: box-shadow 0.3s ease-in;
+  box-shadow: var(--sh-stop-sh);
+}
+
+// Blur when push navigation is opened
+.sh-blur header {
+
+  &:after {
+    display: block;
+    content: '';
+    position: absolute;
+    z-index: 1;
+    inset: 0;
+    backdrop-filter: blur(1px);
+  }
+}

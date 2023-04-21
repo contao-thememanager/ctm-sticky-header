@@ -1,0 +1,94 @@
+@mixin animation-set(){
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+@mixin stickyheader(
+  $start-background: rgba(75,90,170, 1),
+  $stop-background: rgba(177, 190 ,255, 0.5),
+
+  $start-color: #ffffff,
+  $stop-color: #333333,
+
+  $start-color-hover: #cccccc,
+  $stop-color-hover: #3366cc,
+
+  $head-selector: 'header',
+  $link-selector: null
+)
+{
+  #{$head-selector},
+  #{$head-selector} #{$link-selector} {
+    animation-duration: 1s;
+    animation-delay: 0s;
+    @include animation-set;
+  }
+
+  #{$head-selector} {
+    position: fixed;
+    top: 0;
+
+    //Set width for debugging
+    width: 100%;
+
+    animation-name: sh-anim-head-stop;
+    background: $start-background;
+
+    @include keyframes(sh-anim-head-stop) {
+      from {  }
+      to {
+        background-color: $stop-background;
+      }
+    }
+
+    @if ($link-selector) {
+      #{$link-selector} {
+        animation-name: sh-anim-link-stop;
+        color: $start-color;
+
+        &:hover,
+        &.active,
+        &.trail {
+          animation-name: sh-anim-link-hover-stop;
+          color: $start-color-hover;
+        }
+      }
+
+      @include keyframes(sh-anim-link-stop) {
+        from {  }
+        to {
+          color: $stop-color;
+        }
+      }
+
+      @include keyframes(sh-anim-link-hover-stop) {
+        from {  }
+        to {
+          color: $stop-color-hover;
+        }
+      }
+    }
+  }
+}

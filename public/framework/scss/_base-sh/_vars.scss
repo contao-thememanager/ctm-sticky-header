@@ -1,0 +1,11 @@
+:root {
+  // Sticky header
+  --sh-bg-0:#{$sh-background-start};
+  --sh-bg-1:#{$sh-background-end};
+  --sh-clr-0:#{$sh-color-start};
+  --sh-clr-1:#{$sh-color-end};
+  --sh-clr-0-hvr:#{$sh-color-start-hover};
+  --sh-clr-1-hvr:#{$sh-color-end-hover};
+  --sh-stop-sh:#{$sh-stop-box-shadow};
+  --header-bg:var(--sh-bg-0)!important;
+}

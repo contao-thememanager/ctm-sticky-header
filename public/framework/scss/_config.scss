@@ -1,0 +1,10 @@
+// Sticky header
+$sh-background-start:       rgba(255, 255, 255, 1) !default;
+$sh-color-start:            var(--text-clr-base) !default;
+$sh-color-start-hover:      var(--clr-primary) !default;
+
+$sh-background-end:         rgba(255, 255, 255, 0.95) !default;
+$sh-color-end:              var(--text-clr-base) !default;
+$sh-color-end-hover:        var(--clr-primary) !default;
+
+$sh-stop-box-shadow:        0 3px 6px rgba(0,0,0,.1) !default;

@@ -1,0 +1,51 @@
+<?php return [
+    'palettes' => [
+        'default'  =>
+            '{sticky_header_legend:hide},sh-background-start,sh-color-start,sh-color-start-hover,sh-background-end,sh-color-end,sh-color-end-hover,sh-stop-box-shadow;'
+    ],
+    'fields'   => [
+        // Sticky header
+        'sh-background-start' => [
+            'default'                 => 'rgba(255,255,255,1)',
+            'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['sh-background-start'],
+            'inputType'               => 'text',
+            'eval'                    => ['placeholder'=>'rgba(255,255,255,1)', 'maxlength'=>64, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard clr'],
+        ],
+        'sh-color-start' => [
+            'default'                 => 'var(--text-clr-base)',
+            'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['sh-color-start'],
+            'inputType'               => 'text',
+            'eval'                    => ['placeholder'=>'var(--text-clr-base)', 'maxlength'=>64, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard'],
+        ],
+        'sh-color-start-hover' => [
+            'default'                 => 'var(--clr-primary)',
+            'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['sh-color-start-hover'],
+            'inputType'               => 'text',
+            'eval'                    => ['placeholder'=>'var(--clr-primary)', 'maxlength'=>64, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard'],
+        ],
+        'sh-background-end' => [
+            'default'                 => 'rgba(255,255,255,.95)',
+            'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['sh-background-end'],
+            'inputType'               => 'text',
+            'eval'                    => ['placeholder'=>'rgba(255,255,255,.95)', 'maxlength'=>64, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard clr'],
+        ],
+        'sh-color-end' => [
+            'default'                 => 'var(--text-clr-base)',
+            'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['sh-color-end'],
+            'inputType'               => 'text',
+            'eval'                    => ['placeholder'=>'var(--text-clr-base)', 'maxlength'=>64, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard'],
+        ],
+        'sh-color-end-hover' => [
+            'default'                 => 'var(--clr-primary)',
+            'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['sh-color-end-hover'],
+            'inputType'               => 'text',
+            'eval'                    => ['placeholder'=>'var(--clr-primary)', 'maxlength'=>64, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard'],
+        ],
+        'sh-stop-box-shadow' => [
+            'default'                 => '0 3px 6px rgba(0,0,0,.1)',
+            'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['sh-stop-box-shadow'],
+            'inputType'               => 'text',
+            'eval'                    => ['placeholder'=>'0 3px 6px rgba(0,0,0,.1)', 'maxlength'=>255, 'decodeEntities'=>true, 'tl_class'=>'w100 clr'],
+        ]
+    ]
+];

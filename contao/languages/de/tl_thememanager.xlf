@@ -1,0 +1,67 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="contao/languages/en/tl_thememanager.php" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="tl_thememanager.sticky_header_legend">
+        <source>Sticky-Header</source>
+        <target>Sticky-Header</target>
+      </trans-unit>
+
+      <trans-unit id="tl_thememanager.sh-background-start.0">
+        <source>$sh-background-start</source>
+        <target>$sh-background-start</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-background-start.1">
+        <source>Here you can set the starting background-color for the sticky header.</source>
+        <target>Hier können Sie die Start-Hintergrundfarbe des Sticky Headers einstellen.</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-color-start.0">
+        <source>$sh-color-start</source>
+        <target>$sh-color-start</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-color-start.1">
+        <source>Here you can set the starting color for the sticky header navigation.</source>
+        <target>Hier können Sie die Start-Schriftfarbe für die Sticky-Header-Navigation einstellen.</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-color-start-hover.0">
+        <source>$sh-color-start-hover</source>
+        <target>$sh-color-start-hover</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-color-start-hover.1">
+        <source>Here you can set the starting color for the sticky header navigation when hovered.</source>
+        <target>Hier können Sie die Start-Schriftfarbe für die Sticky-Header-Navigation beim hovern einstellen.</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-background-end.0">
+        <source>$sh-background-end</source>
+        <target>$sh-background-end</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-background-end.1">
+        <source>Here you can set the ending background-color for the sticky header.</source>
+        <target>Hier können Sie die End-Hintergrundfarbe des Sticky Headers einstellen.</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-color-end.0">
+        <source>$sh-color-end</source>
+        <target>$sh-color-end</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-color-end.1">
+        <source>Here you can set the ending color for the sticky header navigation.</source>
+        <target>Hier können Sie die End-Schriftfarbe für die Sticky-Header-Navigation einstellen.</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-color-end-hover.0">
+        <source>$sh-color-end-hover</source>
+        <target>$sh-color-end-hover</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-color-end-hover.1">
+        <source>Here you can set the ending color for the sticky header navigation when hovered.</source>
+        <target>Hier können Sie die End-Schriftfarbe für die Sticky-Header-Navigation beim hovern einstellen.</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-stop-box-shadow.0">
+        <source>$sh-stop-box-shadow</source>
+        <target>$sh-stop-box-shadow</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.sh-stop-box-shadow.1">
+        <source>Here you can set the box shadow that appears as a dividing line when the Sticky Header has reached the maximum position.</source>
+        <target>Hier können Sie den Boxschatten einstellen, der als Trennlinie erscheint, wenn die Sticky Header die maximale Position erreicht hat.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
