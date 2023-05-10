@@ -352,7 +352,7 @@ class StickyHeader
         this.o.onPlay.call(this)
     }
 
-    stop(o = false, sd = false)
+    stop(o = false, d = false)
     {
         if (o)
         {
@@ -360,10 +360,10 @@ class StickyHeader
             this.d = 'up'
         }
 
-        if (o)
+        if (d)
         {
             document.body.style.overflowY = 'hidden'
-            this.sd = sd
+            this.sd = d
         }
 
         this.p = true
