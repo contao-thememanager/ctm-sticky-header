@@ -1,6 +1,6 @@
 {
   "name": "contao-thememanager/ctm-sticky-header",
-  "type": "contao-bundle",
+  "type": "symfony-bundle",
   "description": "Sticky header integration for Contao Theme-Manager",
   "keywords": ["contao", "theme", "header", "sticky"],
   "homepage": "https://www.oveleon.de/thememanager.html",
