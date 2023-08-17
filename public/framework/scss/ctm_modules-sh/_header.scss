@@ -7,8 +7,16 @@
   $start-color-hover: var(--sh-clr-0-hvr),
   $stop-color-hover:  var(--sh-clr-1-hvr),
   $head-selector:     'header',
-  $link-selector:     '.level_1 > li > a, .level_1 > li > strong, .sh-el'
+  $link-selector:     '.level_1 > li, .sh-el'
 );
+
+header .level_1 > li {
+
+  > a,
+  > strong {
+    color: inherit;
+  }
+}
 
 .sh-stop {
   transition: box-shadow 0.3s ease-in;

@@ -24,8 +24,7 @@ class StickyHeader
 
         this.o = this._m({
             selector: 'header',
-            linkSelector: 'header .mod_navigation .level_1 > li > a, ' +
-                          'header .mod_navigation .level_1 > li > strong, ' +
+            linkSelector: 'header .mod_navigation .level_1 > li, ' +
                           'header .sh-el',
             scrollSettings: {
                 startHeight: i.a,
