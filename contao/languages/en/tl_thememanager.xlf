@@ -2,7 +2,7 @@
   <file datatype="php" original="contao/languages/en/tl_thememanager.php" source-language="en">
     <body>
       <trans-unit id="tl_thememanager.sticky_header_legend">
-        <source>Sticky-Header</source>
+        <source>Extension: Sticky-Header</source>
       </trans-unit>
 
       <trans-unit id="tl_thememanager.sh-background-start.0">

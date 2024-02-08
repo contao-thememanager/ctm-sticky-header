@@ -2,8 +2,8 @@
   <file datatype="php" original="contao/languages/en/tl_thememanager.php" source-language="en" target-language="de">
     <body>
       <trans-unit id="tl_thememanager.sticky_header_legend">
-        <source>Sticky-Header</source>
-        <target>Sticky-Header</target>
+        <source>Extension: Sticky-Header</source>
+        <target>Erweiterung: Sticky-Header</target>
       </trans-unit>
 
       <trans-unit id="tl_thememanager.sh-background-start.0">
