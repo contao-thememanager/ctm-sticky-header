@@ -65,6 +65,7 @@ class StickyHeader
                     stopHeight:  i.a,
                 }
             },
+            showProgress: false,
             onInit: () => {},
             onPlay: () => {},
             onPause: () => {},
@@ -79,6 +80,9 @@ class StickyHeader
 
         if (this.o.logo.selector)
             this.l = document.querySelector(this.o.logo.selector)
+
+        if (this.o.showProgress !== false)
+            this.sp = document.querySelector(this.o.showProgress)
 
         this.ls = null
         this.d  = ''
@@ -229,6 +233,9 @@ class StickyHeader
 
         if(this.o.logo.selector && this.l)
             this._l()
+
+        if (this.sp)
+            this.sp.dataset.headerProgress = f.toString()
 
         this.o.onUpdate.call(this, f)
     }
