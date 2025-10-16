@@ -235,7 +235,7 @@ class StickyHeader
             this._l()
 
         if (this.sp)
-            this.sp.dataset.headerProgress = f.toString()
+            this.sp.style.setProperty('--sh-p', f.toString())
 
         this.o.onUpdate.call(this, f)
     }
